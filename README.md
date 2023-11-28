@@ -2,7 +2,7 @@
 CRUD app
 Python
 backend: FastAPI
-frontend: Flaask
+frontend: Flask
 
 <h3>Instructions</h3>
 <ul>
