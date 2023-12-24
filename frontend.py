@@ -24,7 +24,7 @@ def add_item():
         #pošalji POST zahtjev za dodati unos
         payload = {'name':name, 'description': description}
         response = requests.post('http://127.0.0.1:8000/items/', json=payload)
-        if response.status_code==200:
+        if response.status_code==201:
             return redirect('/items')
         else:
             return render_template('error.html', message="Failed to add item")

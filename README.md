@@ -6,7 +6,8 @@ frontend: Flask
 
 <h3>Instructions</h3>
 <ul>
-  <li>pip install -r requirements.txt</li>
+<li>Connect to MongoDb account</li>
+<li>pip install -r requirements.txt</li>
 <li>uvicorn main:app --reload</li>
 <li>python frontend.py</li> 
 </ul>
